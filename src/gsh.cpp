@@ -11,6 +11,7 @@ int main ()
     {
         cout<<"gsh >>";
         getline(cin,input);
+        //convert to const*
         system((const char*)input.c_str());
         
     }
