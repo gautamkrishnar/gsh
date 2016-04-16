@@ -1,2 +1,5 @@
 general:
   build_dir: src
+test:
+  override:
+    - gcc -v -o gsh gsh.c
