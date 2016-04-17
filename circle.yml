@@ -1,4 +1,0 @@
-test:
-  override:
-    - cd src
-    - gcc -v -o gsh gsh.cpp
