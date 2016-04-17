@@ -1,0 +1,4 @@
+language: cpp
+script: 
+- cd src/
+- g++ -v gsh.cpp
